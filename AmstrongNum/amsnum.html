@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  let num = 153;
+let temp = num;
+let sum = 0;
+
+while (temp > 0) {
+    let ans = temp % 10;
+    sum = sum + (ans * ans * ans);
+    temp = Math.floor(temp / 10);
+}
+
+if (sum === num) {
+    console.log(`${num} is an Armstrong number`);
+} else {
+    console.log(`${num} is NOT an Armstrong number`);
+}
+    </script>
+</body>
+</html>
