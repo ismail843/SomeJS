@@ -70,3 +70,54 @@
 //   }
 // }
 
+
+//for 
+//while
+// do-while
+
+// for(let b = 1; b < 10; b++){
+//     console.log(b);
+    
+// }
+
+// let i = 1;
+// while(i<16){
+// if(i%2 !== 0){
+//     console.log(i);
+    
+// } 
+// i++;
+
+// }
+// let sum = 0
+
+// for (let i = 1; i < 10;i++){
+//     sum = sum + i;
+//     console.log(sum);
+    
+// }
+// console.log(`this is final ${sum}`);
+
+// for (let i = 0; i <21; i++){
+//     if(i%3 !== 0 ){
+//         console.log(i);
+        
+//     }
+// }
+
+// let balance = 1000;
+// let counter = 0;
+// while(balance > 0 && counter !== 3){
+//     let withdraw = +prompt("enter the amount ")
+//     // console.log("u have goog balance ");600
+
+//     counter++;
+//     balance -= withdraw;
+
+// }
+// if(balance < 0){
+//     console.log(`insufficient balance and ur balance is ${balance}`);
+    
+    
+    
+// }

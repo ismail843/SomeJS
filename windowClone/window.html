@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WindowClone</title>
+    <link rel="stylesheet" href="window.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+    <div id="taskbar">
+   
+        <div class="left-section">
+            <div class="start-btn" onclick="toggleStartMenu()">
+                <img src="./src/img/window.png" alt="">
+            </div>
+            <input type="text" placeholder="Search" class="search-box">
+        </div>
+
+        <div class="center-icons">
+            <div class="icon"><i class="fa-solid fa-folder"></i></div>
+            <div class="icon"><i class="fa-brands fa-chrome"></i></div>
+            <div class="icon"><i class="fa-solid fa-headphones"></i></div>
+        </div>
+
+        <div class="right-section">
+            <div class="tray-icon"><i class="fa-solid fa-circle-play"></i></div>
+            <div class="tray-icon"><i class="fa-regular fa-clock"></i></div>
+            <div class="tray-icon"><i class="fa-solid fa-wifi"></i></div>
+        </div>
+    </div>
+
+    <!-- START MENU -->
+    <div id="startMenu">
+        <h3>Start Menu</h3>
+        <ul>
+            <li><i class="fa-solid fa-folder"></i> Files</li>
+            <li><i class="fa-solid fa-gear"></i> Settings</li>
+            <li><i class="fa-solid fa-computer"></i> This PC</li>
+            <li><i class="fa-solid fa-arrows-rotate"></i> Restart</li>
+            <li><i class="fa-solid fa-power-off"></i> Shutdown</li>
+        </ul>
+    </div>
+
+    <!-- RIGHT CLICK MENU -->
+    <div id="contextMenu">
+        <ul>
+            <li><i class="fa-regular fa-image"></i> View</li>
+            <li><i class="fa-solid fa-rotate-right"></i> Refresh</li>
+            <li><i class="fa-solid fa-folder-plus"></i> New Folder</li>
+            <li><i class="fa-regular fa-file"></i> New File</li>
+            <li><i class="fa-solid fa-display"></i> Display Settings</li>
+            <li><i class="fa-solid fa-moon"></i> Personalize</li>
+        </ul>
+    </div>
+
+    <script src="window.js"></script>
+</body>
+</html>
